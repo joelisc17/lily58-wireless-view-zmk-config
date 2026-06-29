@@ -8,13 +8,13 @@
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
-#   - board: nRF52840-nicenano
+#   - board: nRF52840_nicenano
 #     shield: reviung41
 #
 ---
 include:
-  - board: nRF52840-nicenano
+  - board: nRF52840_nicenano
     shield: lily58_left
     snippet: studio-rpc-usb-uart
-  - board: nRF52840-nicenano
+  - board: nRF52840_nicenano
     shield: lily58_right
